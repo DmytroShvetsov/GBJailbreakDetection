@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc              = true
   s.frameworks                = 'Foundation', 'UIKit'
 
+  s.static_framework = true
   s.vendored_frameworks       = 'GBJailbreakDetection.framework'
   s.xcconfig                  = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' }
   s.preserve_paths            = 'GBJailbreakDetection.framework'
