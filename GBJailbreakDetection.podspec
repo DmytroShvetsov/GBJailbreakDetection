@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version                   = '1.3.0'
   s.summary                   = 'Detection for jailbroken devices.'
   s.author                    = 'Luka Mirosevic'      
-  s.homepage                  = 'https://github.com/lmirosevic/GBJailbreakDetection'
+  s.homepage                  = 'https://github.com/DmytroShvetsov/GBJailbreakDetection'
   s.license                   = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
-  s.source                    = { :git => 'https://github.com/lmirosevic/GBJailbreakDetection.git', :tag => s.version.to_s }
+  s.source                    = { :git => 'https://github.com/DmytroShvetsov/GBJailbreakDetection.git', :tag => s.version.to_s }
   s.platform                  = :ios, '5.0'
   s.requires_arc              = true
   s.frameworks                = 'Foundation', 'UIKit'
